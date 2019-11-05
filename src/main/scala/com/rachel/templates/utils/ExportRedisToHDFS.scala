@@ -2,7 +2,7 @@ package com.rachel.templates.utils
 
 import java.io.IOException
 
-import com.rachel.templates.configurations.ConfigHelper
+import com.rachel.templates.configurations.{ConfigHelper, JedisUtil}
 import org.apache.hadoop.io.LongWritable
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.types.{StringType, StructField, StructType}

@@ -3,6 +3,7 @@ package com.rachel.templates.utils
 
 import java.util.Date
 
+import com.rachel.templates.configurations.JedisUtil
 import org.apache.commons.lang3.time.DateFormatUtils
 import org.apache.spark.scheduler.SparkListener
 import org.apache.spark.sql.SparkSession

@@ -1,6 +1,6 @@
 package com.rachel.templates
 
-import com.rachel.templates.configurations.ConfigHelper
+import com.rachel.templates.configurations.{ConfigHelper, JedisUtil}
 import org.junit.Test
 
 /**
